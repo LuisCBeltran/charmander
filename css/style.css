@@ -1,0 +1,86 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    background: linear-gradient(90deg, rgba(204,23,23,1) 0%, rgba(236,110,64,1) 42%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container 
+{
+   width: 500px;
+   margin: 0 auto;
+   background-color: white;
+   position: relative;
+   top: 60px;
+   border: 7px #973714 solid;
+   border-radius: 35px;
+   box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.container__title
+{
+    background-color: #f7d2c4;
+    width: 150px;
+    height: 47px;
+    border: 7px #973714 solid;
+    position: relative;
+    bottom: 23px;
+    left: 160px;
+    border-radius: 15px;
+}
+
+h1
+{
+    font-size: 20px;
+    text-align: center;
+    color: #973714;
+}
+
+.container__img
+{
+    width: 400px;
+    margin: 0 auto;
+}
+
+img
+{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container__text
+{
+    width: 400px;
+    background-color: #f7d2c4;
+    margin: 25px auto;
+    border-radius: 15px;
+}
+
+.container__text__p
+{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.container__chart
+{
+    width: 200px;
+    border: 3px #973714 solid;
+    border-radius: 15px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.container__item
+{
+    list-style: none;
+    line-height: 15px;
+    padding: 10px;
+}
